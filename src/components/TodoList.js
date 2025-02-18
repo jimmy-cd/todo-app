@@ -44,8 +44,10 @@ function TodoList() {
                 />
             ))}
             <input
+                type="text"
                 value={text}
-                onChange={e => setText(e.target.value)} 
+                onChange={e => setText(e.target.value)}
+                placeholder="Add a new task..."
             />
             <button onClick={() => addTask(text)}>Add</button>
         </div>
