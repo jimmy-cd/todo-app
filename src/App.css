@@ -76,7 +76,7 @@
 }
 
 .todo-item button {
-  background: #4CAF50;
+  background: #4285f4;
   color: white;
   border: none;
   border-radius: 4px;
@@ -86,7 +86,7 @@
 }
 
 .todo-item button:hover {
-  background: #45a049;
+  background: #357abd;
 }
 
 .todo-list input[type="text"] {
@@ -99,7 +99,7 @@
 }
 
 .todo-list button {
-  background: #4CAF50;
+  background: #4285f4;
   color: white;
   border: none;
   border-radius: 4px;
@@ -110,5 +110,5 @@
 }
 
 .todo-list button:hover {
-  background: #45a049;
+  background: #357abd;
 }
